@@ -71,7 +71,7 @@ public class EvaluadorPostfijo {
             else if (e.equals("/")) {
                 num1 = pila.pop();
                 num2 = pila.pop();
-                // Sí el dividendo es cero, se condiciona para que no salga la excepeción.
+                // Sí el divisor es cero, se condiciona para que no salga la excepeción.
                 if (num1 != 0) {
                     // Introduce elemento en la pila con realizando la operación de división.
                     pila.push(num2 / num1);
